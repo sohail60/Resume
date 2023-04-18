@@ -1,0 +1,54 @@
+/* Work left:
+        change font style
+        Do work and improve Resume*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin-bottom: 12px;
+}
+
+.social-container{
+    margin: 2px;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 8px;
+}
+.heading{
+    padding: 1px;
+    border-bottom: 1.5px solid rgb(47, 46, 46);
+    margin: 2px;
+}
+
+
+/* Utility Class */
+.bold{
+    font-weight: bold;
+}
+
+.left-margin{
+    margin-left: 15px;
+}
