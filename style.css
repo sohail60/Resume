@@ -2,53 +2,81 @@
         change font style
         Do work and improve Resume*/
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Schibsted Grotesk", sans-serif;
 }
 
-.social-container{
-    display: flex;
-    justify-content: space-between;
+#intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.skills{
-    display: flex;
-    justify-content: space-between;
+.container {
+  margin-bottom: 12px;
 }
 
-.education{
-    display: flex;
-    justify-content: space-between;
-}
-.container{
-    margin-bottom: 12px;
+#name {
+  color: #3ea2c1;
+  font-size: 40px;
+  margin: 10px;
 }
 
-.social-container{
-    margin: 2px;
+p {
+  margin: 2px;
 }
 
-h3{
-    margin: 0;
-    padding: 0;
+/* #skills-container ul{
+    list-style: none;
+    margin-right: 0px;
+    border: 2px solid red;
+} */
+
+.skills {
+  display: flex;
+  justify-content: space-between;
 }
 
-ul{
-    margin: 8px;
-}
-.heading{
-    padding: 1px;
-    border-bottom: 1.5px solid rgb(47, 46, 46);
-    margin: 2px;
+.education {
+  display: flex;
+  justify-content: space-between;
 }
 
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #3ea2c1;
+}
+
+ul {
+  margin: 8px;
+}
+
+.heading {
+  padding: 1px;
+  border-bottom: 2px solid #3ea2c1;
+  margin: 2px;
+}
 
 /* Utility Class */
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
 
-.left-margin{
-    margin-left: 15px;
+.left-margin {
+  margin-left: 15px;
+}
+
+a {
+  /* color: black; */
+  color: #3ea2c1;
+}
+
+a:visited {
+  /* color: black; */
+  color: #3ea2c1;
 }
